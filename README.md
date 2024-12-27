@@ -31,6 +31,8 @@ OrangeHRMPythonWeb/ <br>
 ### Virtual Environment Configuration
 ```
 pip install virtualenv
+```
+```
 virtualenv venv
 ```
 ```
@@ -40,10 +42,31 @@ virtualenv venv
 source venv/bin/activate # macOS/Linux
 ```
 ### Libraries for Web Automation with Python
-#### Biblioteca principal para automação de navegadores &emsp; &emsp; &ensp; pip install selenium
-#### Biblioteca principal para configuração de navegadores &emsp; &nbsp; &ensp; pip install webdriver-manager
-#### Framework para Behavior Driven Development (BDD) &nbsp; &nbsp; &nbsp; &emsp; pip install behave
-#### Framework de testes Python &ensp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &ensp; pip install pytest
-#### Biblioteca para requisições HTTP &ensp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; pip install requests
-#### Biblioteca para extração de dados HTML e XML &nbsp; &emsp; &emsp; &emsp; &emsp; pip install beautifulsoup4
-#### Biblioteca para análise de dados &nbsp; &nbsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; pip install pandas
+#### Library for browser automation
+```
+pip install selenium
+```
+#### Library for browser configuration
+```
+pip install webdriver-manager
+```
+#### Framework for Behavior Driven Development (BDD)
+```
+pip install behave
+```
+#### Python Testing Framework
+```
+pip install pytest
+```
+#### Library for HTTP requests
+```
+pip install requests
+```
+#### Library for extracting HTML and XML data
+```
+pip install beautifulsoup4
+```
+#### Library for data analysis
+```
+pip install pandas
+```
